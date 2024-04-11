@@ -349,7 +349,7 @@ port = getPort()
 function timer1_func()
     blinkTimer = blinkTimer + 1
 
-    Controls.Active.Position = blinkTimer % 2
+    Controls.ScriptActive.Position = blinkTimer % 2
 
     if blinkTimer == 5 then
         -- 5 seconds
